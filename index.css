@@ -1,0 +1,14 @@
+.style-form,
+.welcome {
+    margin-top: 20%;
+    width: 650px;
+    text-align: center;
+}
+
+.horoscope {
+    width: 650px;
+    background-color: rgb(255, 251, 236);
+    padding: 10px;
+    margin: 5px;
+    margin-left: 20%;
+}
