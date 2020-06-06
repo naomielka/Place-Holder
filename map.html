@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 
-<body onload="onInitMap()">
+<body onload="initMap()">
     <style>
         #map {
             height: 100%;
@@ -23,10 +23,11 @@
 
     <div id="map"></div>
 
+    <button onclick="onMyLocation()"><img src="/img/mylocation.png" alt=""></button>
 
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCZV4_eeosPveaBjSbFmQbbNubKeM228QY&callback=initMap">
+    <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCZV4_eeosPveaBjSbFmQbbNubKeM228QY&">
     </script>
+    <script src="/js/mapController.js"></script>
     <!-- AIzaSyCZV4_eeosPveaBjSbFmQbbNubKeM228QY -->
 </body>
 
